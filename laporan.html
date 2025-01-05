@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Analisis Clustering</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Laporan Analisis Clustering</h1>
+    <h2>Nama    : Ikhalasul Rafid Naufaltama</h2>
+    <h2>NIM     : L200220258</h2>
+
+    <h2>Pendahuluan</h2>
+    <p>Analisis ini dilakukan untuk mengelompokkan pesan teks berdasarkan isi menggunakan teknik <i>clustering</i>. Data dianalisis menggunakan TF-IDF dan algoritma K-Means untuk menemukan pola utama dalam pesan.</p>
+
+    <h2>Proses Analisis</h2>
+    <ol>
+        <li><b>Preprocessing:</b> Data teks diubah menjadi representasi numerik menggunakan TF-IDF dengan 37 fitur unik.</li>
+        <li><b>Clustering:</b> Pesan dikelompokkan menjadi 3 cluster menggunakan algoritma K-Means.</li>
+    </ol>
+
+    <h2>Hasil Clustering</h2>
+    <table>
+        <tr>
+            <th>Cluster</th>
+            <th>Kata Kunci</th>
+        </tr>
+        <tr>
+            <td>Cluster 1</td>
+            <td>offline, dari, tidak</td>
+        </tr>
+        <tr>
+            <td>Cluster 2</td>
+            <td>di, kelas, zoom</td>
+        </tr>
+        <tr>
+            <td>Cluster 3</td>
+            <td>pak, terimakasih, baik</td>
+        </tr>
+    </table>
+
+    <h2>Kesimpulan</h2>
+    <p>Clustering berhasil mengelompokkan pesan menjadi 3 cluster, masing-masing dengan kata kunci yang mencerminkan tema utama. Analisis ini menunjukkan pola dominan yang dapat digunakan untuk memahami isi pesan secara lebih baik.</p>
+</body>
+</html>
